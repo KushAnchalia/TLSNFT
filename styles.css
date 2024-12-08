@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Buttons */
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, background 0.3s;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    background: #ff6b6b;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  #connect-btn {
+    background: #4caf50;
+    color: white;
+  }
+  
+  #history-btn {
+    background: #2196f3;
+    color: white;
+  }
+  
+  #notarize-btn {
+    background: #ff9800;
+    color: white;
+  }
+  
+  #verify-btn {
+    background: #9c27b0;
+    color: white;
+  }
+  
+  /* Output Section */
+  #output {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
